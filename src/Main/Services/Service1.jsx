@@ -1,6 +1,6 @@
 // src/components/DesignCard.js
 import React from 'react';
-import './services.css'; 
+import './Services.css'; 
 import img2 from "../Image/code.jpg"
 
 const Service1 = () => {

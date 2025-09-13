@@ -3,10 +3,10 @@ import Navbar from './Main/Navbar/Navbar'
 import Header from './Main/Header/Header'
 import About from './Main/About/About'
 import Resume from './Main/Resume/Resume'
-import Services from './Main/services/service'
-import Service1 from './Main/services/Service1'
+import Service from './Main/Services/Service'
+import Service1 from './Main/Services/Service1'
 import Contact from './Main/Footer/Contact'
-import WorkProcess from './Main/services/WorkProcess'
+import WorkProcess from './Main/Services/WorkProcess'
 
 function App() {
   
@@ -17,7 +17,7 @@ function App() {
     <Header/>  
     <About/>
     <Resume/>
-    <Services/>
+    <Service/>
     <Service1/>
     <WorkProcess/>
     <Contact/> 
