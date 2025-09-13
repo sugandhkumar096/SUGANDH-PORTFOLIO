@@ -1,8 +1,10 @@
 /* Navbar base */
+
+
 .navbar {
   background: #ffffff;
   padding: 12px 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   z-index: 1000;
 }
 
