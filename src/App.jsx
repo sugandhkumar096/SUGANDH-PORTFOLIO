@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './Main/Navbar/Navbar'
-import Header from './Main/Header/Header'
-import About from './Main/About/About'
-import Resume from './Main/Resume/Resume'
-import Service from './Main/Services/Service'
-import Service1 from './Main/Services/Service1'
-import Contact from './Main/Footer/Contact'
-import WorkProcess from './Main/Services/WorkProcess'
+import Navbar from './main/navbar/Navbar'
+import Header from "./main/header/Header"
+import About from './main/about/About'
+import Resume from './main/resume/Resume'
+import Service from './main/services/Service'
+import Service1 from './main/services/Service1'
+import Contact from './main/footer/Contact'
+import WorkProcess from './main/services/WorkProcess'
 
 function App() {
   

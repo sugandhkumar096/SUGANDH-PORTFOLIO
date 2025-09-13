@@ -1,6 +1,6 @@
 import React from "react";
 import Resume1 from "./Resume1";
- import Portfolio from "../Portfolio/Project";
+ import Portfolio from "../portfolio/Project";
 
 
 
