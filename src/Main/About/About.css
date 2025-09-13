@@ -1,0 +1,89 @@
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; 
+    margin-right: 20px;
+}
+
+.profile-details {
+    text-align: left;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    flex: 1;
+}
+
+.skill-bar {
+    flex: 2;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.skill-fill {
+    height: 100%;
+    background-color: #76c7c0;
+    border-radius: 5px;
+}
+
+.skill-percentage {
+    flex: 1;
+}
+.about-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+/* Left to right motion on hover */
+.about-img:hover img {
+  animation: moveLeftRight 1.5s ease-in-out infinite;
+}
+
+@keyframes moveLeftRight {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(10px); }
+  50% { transform: translateX(0); }
+  75% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
