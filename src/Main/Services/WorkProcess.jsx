@@ -1,6 +1,6 @@
 // src/WorkProcess.js
 import React from 'react';
-import './services.css'; // Create a CSS file for styling if needed
+import './Services.css'; // Create a CSS file for styling if needed
 
 const workSteps = [
   {
