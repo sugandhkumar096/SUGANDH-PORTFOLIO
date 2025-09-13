@@ -2,12 +2,12 @@
 
 import React from 'react';
 import './project.css'
-import img1 from"../Image/portfolio.png"
-import img2 from "../Image/clone.png"
-import img3 from "../Image/Hotel.png"
-import img4 from "../Image/play.png"
-import img5 from "../Image/freelancer.png"
-import img6 from "../Image/Ecommerce.webp"
+import img1 from"../image/portfolio.png"
+import img2 from "../image/clone.png"
+import img3 from "../image/Hotel.png"
+import img4 from "../image/play.png"
+import img5 from "../image/freelancer.png"
+import img6 from "../image/Ecommerce.webp"
 
 
 const projects = [

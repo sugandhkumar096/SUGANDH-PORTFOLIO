@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../Image/profile-1.webp";
+import img from "../image/profile-1.webp";
 import { FaDownload } from "react-icons/fa";
 import './Header.css'
 

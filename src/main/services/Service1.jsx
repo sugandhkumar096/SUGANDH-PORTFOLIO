@@ -1,7 +1,7 @@
 // src/components/DesignCard.js
 import React from 'react';
 import './Services.css'; 
-import img2 from "../Image/code.jpg"
+import img2 from "../image/code.jpg"
 
 const Service1 = () => {
     return (
