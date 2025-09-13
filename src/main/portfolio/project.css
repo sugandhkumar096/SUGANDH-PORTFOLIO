@@ -1,87 +1,92 @@
-/* body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
+/* Section styling */
+.portfolio-section {
+  text-align: center;
 }
 
-.navbar {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.portfolio-heading {
+  color: #7f4e37;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.navbar h1 {
-  margin: 0;
-}
-
-.navbar ul {
-  list-style-type: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.portfolio-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.portfolio-item {
-  background-color: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.portfolio-item img {
-  width: 100%;
-  height: auto;
-}
-
-.portfolio-info {
-  padding: 15px;
-}
-
-.portfolio-info h3 {
-  color: #ff5722;
-  margin: 0;
-}
-
-.portfolio-info h2 {
-  margin: 5px 0;
-}
-
-.portfolio-info p {
+.portfolio-subtext {
+  max-width: 700px;
+  margin: 0 auto 40px auto;
   color: #555;
-} */
- /* src/App.css */
-
-.card {
-  transition: transform 0.2s;
+  font-size: 16px;
 }
 
-.card:hover {
-  transform: scale(1.05);
+/* Card styling */
+.portfolio-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #fff;
+  max-width: 500px;   /* ✅ card width increase */
+  margin: 0 auto;     /* ✅ center align cards */
 }
 
-img {
-  height: 200px;
+.portfolio-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.portfolio-card img {
+  height: 220px;   /* ✅ thoda bada */
   object-fit: cover;
 }
-.main::after {
-    content: '';
-    display: block;
-    width: 110px;
-    height: 3px;
-    background: #d98358;
-    margin: 0.3rem auto 1.5rem auto;
-    border-radius: 10px;
-    animation: underlineGrow 1s ease forwards;
-    margin-bottom: 40px;
+
+.card-body {
+  padding: 22px;
+}
+
+.card-title {
+  font-size: 20px;  /* ✅ thoda bada */
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.card-text {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btn-outline-primary {
+  border-radius: 20px;
+  padding: 8px 16px;   /* ✅ button thoda bada */
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #7f4e37;
+  border-color: #7f4e37;
+  color: #fff;
+}
+
+/* Responsive fix */
+@media (max-width: 992px) {
+  .portfolio-card {
+    max-width: 100%; /* ✅ mobile/tablet full width */
+  }
+  .portfolio-card img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-heading {
+    font-size: 28px;
+  }
+  .portfolio-subtext {
+    font-size: 14px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
 }

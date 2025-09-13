@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import Navbar from './main/navbar/Navbar'
 import Header from "./main/header/Header"
 import About from './main/about/About'

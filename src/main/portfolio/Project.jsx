@@ -1,20 +1,19 @@
 // src/components/Portfolio.js
 
 import React from 'react';
-import './project.css'
-import img1 from"../image/portfolio.png"
-import img2 from "../image/clone.png"
-import img3 from "../image/Hotel.png"
-import img4 from "../image/play.png"
-import img5 from "../image/freelancer.png"
-import img6 from "../image/Ecommerce.webp"
-
+import './project.css';
+import img1 from "../image/portfolio.png";
+import img2 from "../image/clone.png";
+import img3 from "../image/Hotel.png";
+import img4 from "../image/play.png";
+import img5 from "../image/freelancer.png";
+import img6 from "../image/Ecommerce.webp";
 
 const projects = [
   {
     title: "Portfolio Websites",
     description: "I focus on crafting smooth, responsive interfaces that balance aesthetic appeal with practical functionality.",
-    imageUrl: img1, 
+    imageUrl: img1,
   },
   {
     title: "Zerodha Clone",
@@ -37,7 +36,7 @@ const projects = [
     imageUrl: img5,
   },
   {
-    title: "E-commerse platform",
+    title: "E-commerce platform",
     description: "Worked on developing fashion e-commerce features including product collections, size & fit guides, offers, and customer-friendly services like fast delivery and easy returns.",
     imageUrl: img6,
   },
@@ -45,27 +44,27 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="container mt-5">
-      <h1 className="text-center" style={{color:"#7f4e37",fontSize:"32px"}}>Portfolio</h1>
-      <p className='main'></p>
-      <p className="text-center">
+    <section className="portfolio-section container py-5" id="portfolio">
+      <h1 className="text-center portfolio-heading">Portfolio</h1>
+      <p className="text-center portfolio-subtext">
         Here's a selection of my recent work, showcasing my skills in creating user-centric and visually appealing interfaces.
       </p>
-      <div className="row">
+
+      <div className="row justify-content-center">
         {projects.map((project, index) => (
-          <div className="col-md-4 mb-4" key={index}>
-            <div className="card">
+          <div className="col-lg-3 col-md-4 col-sm-12 mb-4 " key={index}>
+            <div className="card portfolio-card flex-fill">
               <img src={project.imageUrl} className="card-img-top" alt={project.title} />
               <div className="card-body">
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>
-                <a href="#" className="btn btn-primary">Case Study</a>
+                <a href="#" className="btn btn-outline-primary btn-sm">Case Study</a>
               </div>
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

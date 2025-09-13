@@ -1,6 +1,7 @@
 
 .about-container {
     max-width: 800px;
+    height: 950px;
     margin: auto;
     padding: 20px;
     font-family: Arial, sans-serif;
@@ -20,9 +21,9 @@ h1 {
 
 .profile-image {
     border-radius: 50%;
-    width: 150px;
-    height: 150px; 
+    width: 150px; 
     margin-right: 20px;
+    margin-bottom: 20px;;
 }
 
 .profile-details {
@@ -41,7 +42,7 @@ h1 {
 .skill {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .skill-name {
@@ -68,8 +69,7 @@ h1 {
 .about-img img {
   display: block;
   width: 100%;
-  height: auto;
-  object-fit: cover;
+    object-fit: cover;
   border-radius: 16px;
   transition: transform 0.3s ease;
 }
