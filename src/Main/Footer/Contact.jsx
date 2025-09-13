@@ -2,7 +2,7 @@ import React from 'react';
 import { SiGooglemaps } from "react-icons/si";
 import { CiPhone } from "react-icons/ci";
 import { FaRegEnvelope } from "react-icons/fa6";
-import './contact.css'
+import './Contact.css'
 
 const Contact = () => {
   return (
