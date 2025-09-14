@@ -85,12 +85,12 @@
 }
 
 .image-container {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .image-container img {
-  width: 100%;
-  max-width: 450px;
+   max-width: 450px;
+   height: 600px;
   border-radius: 12px;
   object-fit: cover;
 }

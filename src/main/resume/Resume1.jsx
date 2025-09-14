@@ -9,10 +9,12 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
    height: 58vh;
+   max-width:100%;
   background: linear-gradient(90deg, #16a0e0ff, #c40fa9ff); /* Blue to Purple gradient */
   color: white;
   text-align: center;
   border-radius: 16px;
+  
 `;
 
 const Heading = styled.h1`

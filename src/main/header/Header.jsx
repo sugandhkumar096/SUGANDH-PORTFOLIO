@@ -2,6 +2,7 @@ import React from "react";
 import img from "../image/profile-1.webp";
 import { FaDownload } from "react-icons/fa";
 import './Header.css'
+import Resume from "../image/my_resume_3_0 (1) (2) (1).pdf";
 
 const Header = () => {
   return (
@@ -36,7 +37,7 @@ const Header = () => {
 
           <div className="buttons">
             <button className="view-work">View My Work</button>
-            <a href="src\Main\Image\my_resume_3_0 (1) (2) (1).pdf" className="connect"><span style={{marginLeft:"20px"}}><FaDownload />Download CV</span></a>
+            <a href={Resume} className="connect" style={{marginTop:"30px"}}><span style={{marginLeft:"20px"}}><FaDownload />Download CV</span></a>
           </div>
         </div>
 

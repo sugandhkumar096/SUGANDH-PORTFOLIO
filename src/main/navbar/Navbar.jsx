@@ -27,7 +27,7 @@ function Navbar() {
 
         {/* Menu items */}
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav mx-auto navbar-links">
+          <ul className="navbar-nav mx-auto navbar-links" id="navlink">
             <li className="nav-item">
               <a className="nav-link" href="#home">Home</a>
             </li>
@@ -54,8 +54,6 @@ function Navbar() {
               <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-
-          {/* Social links */}
           <ul className="navbar-nav navbar-social">
             <li><a href="#"><FaXTwitter /></a></li>
             <li><a href="#"><FaFacebook /></a></li>

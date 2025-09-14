@@ -8,7 +8,7 @@ const Service1 = () => {
         <div className="design-card">
             <div className='row'>
                 <div className='col-6'>
-                    <div className="image-container">
+                    <div className="image-container" >
                 <img src= {img2} alt="Web Design" />
             </div>
                 </div>

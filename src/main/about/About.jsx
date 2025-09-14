@@ -25,7 +25,7 @@ const About = () => {
           font-family: 'Poppins', sans-serif;
           padding: 0 1em;
           color: #3a3838ff;
-          background: rgba(181, 204, 223, 1);
+           background: rgba(157, 164, 168, 1);
           border-radius: 12px;
           box-shadow: 0 10px 25px rgba(137, 123, 123, 0.05);
           animation: fadeInContainer 1s ease forwards;

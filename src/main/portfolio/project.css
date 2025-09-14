@@ -1,6 +1,7 @@
 /* Section styling */
 .portfolio-section {
   text-align: center;
+  max-width: 2300px;
 }
 
 .portfolio-heading {
