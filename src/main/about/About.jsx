@@ -37,7 +37,7 @@ const About = () => {
 
         .about-header {
           text-align: center;
-          color: #7f4e37;
+          color:#0e1a33;
           font-weight: 600;
           font-size: 2rem;
           margin-bottom: 0.5rem;
@@ -55,7 +55,7 @@ const About = () => {
           font-size: 1rem;
           max-width: 480px;
           margin: 0 auto 3rem auto;
-          color: #666666;
+          color: #232121f3;
           line-height: 1.4rem;
           font-weight: 400;
           animation: fadeIn 1.2s ease forwards;
@@ -130,7 +130,7 @@ const About = () => {
         .about-description {
           font-size: 0.95rem;
           line-height: 1.5rem;
-          color: #495057;
+          color: #231818f3;
           margin-bottom: 1rem;
           animation: fadeIn 1.6s ease forwards;
         }

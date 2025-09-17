@@ -15,7 +15,7 @@
 
 /* The "Skills" heading */
 .skills-title {
-  font-size: 2.25rem; /* text-4xl */
+  font-size: 3.3rem; /* text-4xl */
   line-height: 2.5rem;
   font-weight: 700; /* font-bold */
   color: #0e1a33; /* text-white */
@@ -26,7 +26,7 @@
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
-  gap: 1.5rem; /* gap-6 */
+  gap: 2rem; /* gap-6 */
 }
 
 /* Responsive grid for medium screens and up */

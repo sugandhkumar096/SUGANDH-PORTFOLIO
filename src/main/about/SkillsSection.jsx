@@ -34,7 +34,7 @@ function SkillsSection() {
   return (
     <div className="skills-section">
       <div className="skills-container">
-        <h2 className="skills-title">Skills</h2>
+        <h2 className="skills-title">Skills:-</h2>
         <div className="skills-grid">
           {skillsData.map((skill) => (
             <SkillCard key={skill.name} name={skill.name} level={skill.level} />

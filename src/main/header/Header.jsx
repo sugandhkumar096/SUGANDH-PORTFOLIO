@@ -37,7 +37,7 @@ const Header = () => {
 
           <div className="buttons">
             <button className="view-work">View My Work</button>
-            <a href={Resume} className="connect" style={{ marginTop: "30px" }}><span style={{ marginLeft: "20px" }}><FaDownload />Download CV</span></a>
+            <a href={Resume} className="connect" style={{ marginTop: "30px" }}><span style={{ marginLeft: "px" }}><FaDownload /></span>Download CV</a>
           </div>
         </div>
 
