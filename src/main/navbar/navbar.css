@@ -15,6 +15,19 @@
   color: #333 !important;
   transition: color 0.3s ease;
 }
+.navbar-social {
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.navbar-social a:hover {
+  color: #d98358;
+}
 
 .navbar-brand:hover {
   color: #d98358 !important;
@@ -35,22 +48,7 @@
 }
 
 /* Social icons */
-.navbar-social {
-  gap: 12px;
-  display: flex;
-  align-items: center;
-  background-color: #ffffff;
-}
 
-.navbar-social a {
-  color: #333;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
-}
-
-.navbar-social a:hover {
-  color: #d98358;
-}
 
 /* Responsive adjustments */
 @media (max-width: 992px) {

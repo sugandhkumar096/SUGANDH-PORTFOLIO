@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './main/navbar/Navbar'
 import Header from "./main/header/Header"
 import About from './main/about/About'
+import SkillsSection from './main/about/SkillsSection'
 import Resume from './main/resume/Resume'
 import Service from './main/services/Service'
 import Service1 from './main/services/Service1'
@@ -17,6 +18,7 @@ function App() {
     <Navbar/>  
     <Header/>  
     <About/>
+    <SkillsSection/>
     <Resume/>
     <Service/>
     <Service1/>

@@ -55,10 +55,10 @@ function Navbar() {
             </li>
           </ul>
           <ul className="navbar-nav navbar-social">
-            <li><a href="#"><FaXTwitter /></a></li>
-            <li><a href="#"><FaFacebook /></a></li>
-            <li><a href="#"><FaInstagram /></a></li>
-            <li><a href="#"><FaLinkedin /></a></li>
+            <li><a href="#" style={{color:"#333"}}><FaXTwitter /></a></li>
+            <li><a href="#" style={{color:"#333"}}><FaFacebook /></a></li>
+            <li><a href="#" style={{color:"#333"}}><FaInstagram /></a></li>
+            <li><a href="#" style={{color:"#333"}}><FaLinkedin /></a></li>
           </ul>
         </div>
       </div>

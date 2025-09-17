@@ -25,7 +25,6 @@ const About = () => {
           font-family: 'Poppins', sans-serif;
           padding: 0 1em;
           color: #3a3838ff;
-           background: rgba(157, 164, 168, 1);
           border-radius: 12px;
           box-shadow: 0 10px 25px rgba(137, 123, 123, 0.05);
           animation: fadeInContainer 1s ease forwards;
@@ -248,31 +247,6 @@ const About = () => {
           </div>
         </div>
 
-        <section className="skills-container">
-          <div className="skill-card">
-            <h3>HTML</h3>
-            <p>The backbone of my creations, structuring content with semantic precision.</p>
-            <div className="skill-bar"><div className="skill-bar-fill" data-width="90%"></div></div>
-          </div>
-
-          <div className="skill-card">
-            <h3>CSS</h3>
-            <p>Breathing life into designs with colors, layouts, and animations.</p>
-            <div className="skill-bar"><div className="skill-bar-fill" data-width="90%"></div></div>
-          </div>
-
-          <div className="skill-card">
-            <h3>JavaScript</h3>
-            <p>Adding interactivity, logic, and smooth user experiences.</p>
-            <div className="skill-bar"><div className="skill-bar-fill" data-width="80%"></div></div>
-          </div>
-
-          <div className="skill-card">
-            <h3>React.js</h3>
-            <p>Building dynamic, fast, and scalable user interfaces.</p>
-            <div className="skill-bar"><div className="skill-bar-fill" data-width="65%"></div></div>
-          </div>
-        </section>
       </section>
     </>
   );

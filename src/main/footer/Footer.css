@@ -129,9 +129,9 @@
   background: #005fcc;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
     padding: 20px;
   }
+}

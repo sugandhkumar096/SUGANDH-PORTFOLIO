@@ -1,6 +1,9 @@
 
 .about-container {
     max-width: 800px;
+    max-height: 1200px;
+    background: radial-gradient(circle,rgba(189, 62, 117, 1) 26%, rgba(148, 187, 233, 1) 92%);
+    margin-top: 30px;
     margin: auto;
     padding: 20px;
     font-family: Arial, sans-serif;
